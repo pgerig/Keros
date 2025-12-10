@@ -228,8 +228,8 @@ KEROS features a dual-board design optimized for portability and functionality:
 
 ## Planned Features
 
-| Module | Feature | Timeline |
-|--------|---------|----------|
+| Module | Feature |
+|--------|---------|
 | RF Sub-GHz | CC1101 integration (433/868MHz), replay attacks |
 | RF Expansion | LoRa, Zigbee, Thread (Matter) modules |
 | BadUSB | HID emulation, DuckyScript scripting |
