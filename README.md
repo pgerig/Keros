@@ -213,6 +213,7 @@ KEROS features a dual-board design optimized for portability and functionality:
 | WiFi | Network scanning, handshake capture, deauth, Evil Twin | **OPERATIONAL** |
 | Bluetooth | Jamming | **OPERATIONAL** |
 | RF 2.4GHz | Sniffing, selective jamming | **OPERATIONAL** |
+| BadUSB | HID emulation, DuckyScript scripting |
 | Interface | OLED menus, LED indicators, button navigation | **OPERATIONAL** |
 
 
@@ -232,7 +233,6 @@ KEROS features a dual-board design optimized for portability and functionality:
 |--------|---------|
 | RF Sub-GHz | CC1101 integration (433/868MHz), replay attacks |
 | RF Expansion | LoRa, Zigbee, Thread (Matter) modules |
-| BadUSB | HID emulation, DuckyScript scripting |
 | System | OTA updates, plugin architecture (Lua/Python) |
 | Interface | Pentest profiles, graphical UI, 1.3" OLED |
 
