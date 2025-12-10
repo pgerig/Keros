@@ -12,7 +12,7 @@
 > *Open-source multi-protocol pentesting tool for WiFi, Bluetooth, NFC/RFID, and RF auditing*
 
 <p align="center">
-  <img src="art_keros.png" alt="KEROS Device" width="600"/>
+  <img src="images/art_keros.png" alt="KEROS Device" width="600"/>
 </p>
 
 ```
@@ -76,7 +76,7 @@ KEROS features a dual-board design optimized for portability and functionality:
 **Components**: NRF24L01+PA+LNA (2.4GHz RF) • OLED 0.96" (128x64) • Capacitive touch buttons (4x) • RGB addressable LED • 12-pin M20 connector
 
 <p align="center">
-  <img src="pcb_down.png" alt="Upper Board PCB" width="450"/>
+  <img src="images/pcb_down.png" alt="Upper Board PCB" width="450"/>
 </p>
 
 ## Lower Board (Core + Modules)
@@ -84,7 +84,7 @@ KEROS features a dual-board design optimized for portability and functionality:
 **Components**: ESP32-S3-WROOM-1-N8R8 • PN532 NFC/RFID • CH340G USB-Serial • TP4056 + LiPo 2500mAh • AMS1117 regulators • MicroSD slot (TF-01A)
 
 <p align="center">
-  <img src="pcb_down_two.png" alt="Lower Board PCB" width="450"/>
+  <img src="images/pcb_down_two.png" alt="Lower Board PCB" width="450"/>
 </p>
 
 ### System Specifications
