@@ -214,54 +214,27 @@ KEROS features a dual-board design optimized for portability and functionality:
 | Bluetooth | Jamming | **OPERATIONAL** |
 | RF 2.4GHz | Sniffing, selective jamming | **OPERATIONAL** |
 | Interface | OLED menus, LED indicators, button navigation | **OPERATIONAL** |
-| Storage | MicroSD logging | **OPERATIONAL** |
+
 
 ## In Active Development
 
-| Module | Feature | Target |
-|--------|---------|--------|
-| WiFi | Evil Twin advanced (captive portals), WPA3 support, beacon spam | Q1 2026 |
-| Bluetooth | BT/BLE scanning, BLE sniffing, flooding attacks, MITM | Q1 2026 |
-| NFC/RFID | ISO14443A reading, tag emulation, Mifare cloning, relay attacks | Q2 2026 |
-| RF 2.4GHz | Proprietary protocol attacks, replay | Q2 2026 |
+| Module | Feature |
+|--------|---------|
+| WiFi | Evil Twin advanced (captive portals), WPA3 support, beacon spam |
+| Bluetooth | BT/BLE scanning, BLE sniffing, flooding attacks, MITM |
+| NFC/RFID | ISO14443A reading, tag emulation, Mifare cloning, relay attacks |
+| RF 2.4GHz | Proprietary protocol attacks, replay |
+| Storage | MicroSD logging | **OPERATIONAL** |
 
 ## Planned Features
 
 | Module | Feature | Timeline |
 |--------|---------|----------|
-| RF Sub-GHz | CC1101 integration (433/868MHz), replay attacks | Q3 2026 |
-| RF Expansion | LoRa, Zigbee, Thread (Matter) modules | 2026-2027 |
-| BadUSB | HID emulation, DuckyScript scripting | Q2 2026 |
-| System | OTA updates, plugin architecture (Lua/Python) | Q3 2026 |
-| Interface | Pentest profiles, graphical UI, 1.3" OLED | Q4 2026 |
-
----
-
-# ROADMAP
-
-### Phase 1: Core Functionality (Current)
-- Stabilize WiFi, Bluetooth, RF 2.4GHz modules
-- Complete NFC/RFID implementation
-- MicroSD logging finalization
-
-### Phase 2: Protocol Expansion (2026)
-- WPA3 support
-- BLE MITM and advanced attacks
-- Sub-GHz RF (CC1101) integration
-- BadUSB development
-
-### Phase 3: Modular Ecosystem (2026-2027)
-- Plugin system for community scripts
-- Hardware expansion modules (LoRa, Zigbee, Thread)
-- OTA firmware updates
-- Graphical interface improvements
-- Pentest scenario profiles
-
-### Phase 4: Community Growth (Ongoing)
-- Open-source hardware revisions
-- Educational documentation and tutorials
-- Integration with existing tools (Pwnagotchi, NRFBox, Bruce, etc.)
-- Collaborative feature development
+| RF Sub-GHz | CC1101 integration (433/868MHz), replay attacks |
+| RF Expansion | LoRa, Zigbee, Thread (Matter) modules |
+| BadUSB | HID emulation, DuckyScript scripting |
+| System | OTA updates, plugin architecture (Lua/Python) |
+| Interface | Pentest profiles, graphical UI, 1.3" OLED |
 
 ---
 
@@ -281,14 +254,13 @@ KEROS is built on the principles of transparency, collaboration, and accessibili
 
 ```
 ├── Firmware (ESP32-S3 code)
-├── Hardware schematics (KiCad files)
+├── Hardware schematics 
 ├── PCB designs and layouts
-├── 3D-printable enclosure designs
 ├── Technical documentation
 └── Example scripts and payloads
 ```
 
-All repositories are licensed under permissive open-source licenses. Commercial use allowed with attribution.
+All repositories are licensed under permissive open-source licenses.
 
 ---
 
@@ -308,14 +280,6 @@ KEROS thrives on community collaboration. We welcome contributions of all kinds:
 │ [TESTING]      Bug reports, field tests │
 └─────────────────────────────────────────┘
 ```
-
-### Guidelines
-
-1. **Fork** the repository and create a feature branch
-2. **Document** your changes with clear commit messages
-3. **Test** thoroughly before submitting pull requests
-4. **Respect** the ethical use policy
-5. **Collaborate** constructively with other contributors
 
 **Note**: All contributions must comply with ethical hacking standards. Submissions facilitating illegal activity will be rejected.
 
@@ -342,25 +306,6 @@ KEROS is developed by **CyberSen Group**—a collective of security researchers,
 - Help translate materials for global accessibility
 
 **Together, we're building more than a device—we're building a movement.**
-
----
-
-# TECHNICAL RESOURCES
-
-### Supported Integration Ecosystems
-
-- **Minino Device**: ESP32-based pentesting companion
-- **Pwnagotchi**: AI-driven WPA handshake collector
-- **NRFBox**: Nordic RF toolkit
-- **Bruce**: Multi-protocol security tool
-- **LilyGo T-Embedded / M5Stick**: Compatible dev boards
-
-### Documentation
-
-- Full hardware specifications in `/docs/hardware`
-- Firmware API reference in `/docs/firmware`
-- Setup and flashing guides in `/docs/getting-started`
-- Protocol analysis tutorials in `/docs/research`
 
 ---
 
