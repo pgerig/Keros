@@ -1,12 +1,3 @@
-```
- ██╗  ██╗███████╗██████╗  ██████╗ ███████╗
- ██║ ██╔╝██╔════╝██╔══██╗██╔═══██╗██╔════╝
- █████╔╝ █████╗  ██████╔╝██║   ██║███████╗
- ██╔═██╗ ██╔══╝  ██╔══██╗██║   ██║╚════██║
- ██║  ██╗███████╗██║  ██║╚██████╔╝███████║
- ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝
-```
-
 ### **Portable Wireless Hacking & Security Research Device**
 
 > *Open-source multi-protocol pentesting tool for WiFi, Bluetooth, NFC/RFID, and RF auditing*
@@ -16,11 +7,21 @@
 </p>
 
 ```
+
+ ██╗  ██╗███████╗██████╗  ██████╗ ███████╗
+ ██║ ██╔╝██╔════╝██╔══██╗██╔═══██╗██╔════╝
+ █████╔╝ █████╗  ██████╔╝██║   ██║███████╗
+ ██╔═██╗ ██╔══╝  ██╔══██╗██║   ██║╚════██║
+ ██║  ██╗███████╗██║  ██║╚██████╔╝███████║
+ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝
+
 [SYSTEM ONLINE] > Initializing wireless protocols...
 [SYSTEM ONLINE] > ESP32-S3 core loaded
 [SYSTEM ONLINE] > RF modules detected
 [SYSTEM ONLINE] > Ready for security research
+
 ```
+
 
 ---
 
